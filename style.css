@@ -27,10 +27,22 @@ footer {
   }
 }
 
-.container{
+#main{
   background-color: #9F897D;
 }
 
 .dropdown-menu{
-  background-color: #9F897D;
+  background-color: beige;
+}
+.button{
+  background-color: black;
+}
+.class1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.classcenter{
+  
 }
