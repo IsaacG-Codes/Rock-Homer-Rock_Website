@@ -47,6 +47,8 @@ footer {
 
 .classcenter{
   background-color: #8C6E5E;
+  align-items: center;
+
 }
 
 .image-size{
@@ -57,4 +59,12 @@ footer {
 
 .footer-color{
   background-color: burlywood;
+}
+
+.div-border{
+  border-style:solid;
+  border-width:1px;
+}
+funct{
+
 }
