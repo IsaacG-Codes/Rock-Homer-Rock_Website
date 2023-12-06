@@ -1,21 +1,24 @@
 .nav-item{
-    color:rgb(223, 248, 0)
+    color:rgb(223, 248, 0);
 }
 .size{
   width:300px;
   height:300px;
 }
-.carousel .item img{ margin:auto; width:100%}
-
-
+.carousel .item img{ 
+  margin:auto; 
+  width:100%;
+  height: 500px;
+}
 
 .class1{
   width:150px;
 }
 
 footer {
-  background-color: #f2f2f2;
+  background-color: #D1C3BA;
   padding: 25px;
+  display: block;
 }
 
 .carousel-inner img {
@@ -28,6 +31,12 @@ footer {
     display: none; 
   }
 }
+
+.card {
+  background-color: #99765C;
+}
+
+
 
 #main{
   background-color: #9F897D;
@@ -67,4 +76,25 @@ footer {
 }
 funct{
 
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, 
+th {
+  margin: 20px;
+  padding: 40px;
+  border: 1px solid black;
+  border-right:1px;
+
+}
+
+th{
+
+}
+
+.footer-first-div{
+  align-items: left;
 }
