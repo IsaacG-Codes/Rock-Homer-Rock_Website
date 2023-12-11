@@ -31,7 +31,9 @@ function swap(argument) {
     img2=document.getElementById('img2').src;
     document.getElementById('img2').src=img1
     document.getElementById('img1').src=img2
-    resizeImage('img2')
+    var caption, 
+    
+
 
 }
 
