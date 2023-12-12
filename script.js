@@ -29,15 +29,49 @@ function swap(argument) {
     var img1, img2;
     img1=document.getElementById('img1').src;
     img2=document.getElementById('img2').src;
+    img2=document.getElementById('img2').src;
     document.getElementById('img2').src=img1
     document.getElementById('img1').src=img2
-    var caption, 
-    
 
 
 }
+function resizeImg(img1, height = '150px', width ='150px'){
+    img1.height = height;
+    img1.width = width;
+}
 
-
+function swap2(argument) {
+    var img1, img3;
+    img1=document.getElementById('img1').src;
+    img3=document.getElementById('img3').src;
+    document.getElementById('img3').src=img1
+    document.getElementById('img1').src=img3
+    
+}
+function swap3(argument) {
+    var img1, img4;
+    img1=document.getElementById('img1').src;
+    img4=document.getElementById('img4').src;
+    document.getElementById('img4').src=img1
+    document.getElementById('img1').src=img4
+    
+}
+function swap4(argument) {
+    var img1, img5;
+    img1=document.getElementById('img1').src;
+    img5=document.getElementById('img5').src;
+    document.getElementById('img5').src=img1
+    document.getElementById('img1').src=img5
+    
+}
+function swap5(argument) {
+    var img1, img6;
+    img1=document.getElementById('img1').src;
+    img6=document.getElementById('img6').src;
+    document.getElementById('img6').src=img1
+    document.getElementById('img1').src=img6
+    
+}
 
 
 
