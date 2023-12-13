@@ -1,141 +1,239 @@
 .nav-item{
-    color:rgb(223, 248, 0);
+  color:rgb(223, 248, 0);
 }
 .size{
-  width:300px;
-  height:300px;
+width:300px;
+height:300px;
 }
 .carousel .item img{ 
-  margin:auto; 
-  height: 700px;
+margin:auto; 
+height: 700px;
 
 }
 
 .class1{
-  width:150px;
+width:150px;
 }
 
 footer {
-  background-color: #D1C3BA;
-  padding: 25px;
-  display: block;
+background-color: #D1C3BA;
+padding: 25px;
+display: block;
 }
 
 .carousel-inner img {
-  width: 60%; 
-  min-height: 200px;
+width: 60%; 
+min-height: 200px;
 }
 
 @media (max-width: 600px) {
-  .carousel-caption {
-    display: none; 
-  }
+.carousel-caption {
+  display: none; 
+}
 }
 
 .card {
-  background-color: rgb(165, 131, 105);
+background-color: rgb(165, 131, 105);
 }
 
 
 
 #main{
-  background-color: #9F897D;
+background-color: #9F897D;
 }
 
 .dropdown-menu{
-  background-color: beige;
+background-color: beige;
 }
 .button{
-  background-color: black;
+background-color: black;
 }
 .class1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 .classcenter{
-  background-color: #8C6E5E;
-  align-items: center;
+background-color: #8C6E5E;
+align-items: center;
 
 }
 
 .image-size{
-  width: 30px;
-  height: 30px;
+width: 30px;
+height: 30px;
 
 }
 .links{
-  font-size: 20px;
-  color: black;
+font-size: 20px;
+color: black;
 }
 .bigText{
-  font-size: 25px;
-  color: black;
+font-size: 25px;
+color: black;
 }
 
 
 .footer-color{
-  background-color: burlywood;
+background-color: burlywood;
 }
 
 .div-border{
-  border-style:solid;
-  border-width:1px;
+border-style:solid;
+border-width:1px;
 }
 
 
 table {
-  border-collapse: collapse;
+border-collapse: collapse;
 }
 
 td, 
 th {
-  margin: 15px;
-  padding: 15px;
-  border: 1px solid black;
-  border-right:1px;
+margin: 15px;
+padding: 15px;
+border: 1px solid black;
+border-right:1px;
 
 }
 
 
 .footer-first-div{
-  align-items: left;
+align-items: left;
 }
 
 .contact-sizing{
-  width: 100px;
-  height: 100px;
+width: 100px;
+height: auto;
 }
 
 .phone-sizing{
-  width:20px;
-  height:20px;
+width:20px;
+height:20px;
 }
 
-.table-design{
-  background-color: coral;
-}
+
 .background{
-  background-color:rgb(165, 131, 105);
-  padding-bottom:0px;
-  border-radius:0px;
-  justify-content: center;
-}
-.hi{
-  align-items: center;
+background-color:rgb(165, 131, 105);
+padding-bottom:0px;
+border-radius:0px;
+justify-content: center;
 }
 
-.background_color{
-  background-color:#8C6E5E;
-}
 .nav_color{
-  background-color:#757575;
+background-color:#757575;
 }
-.divs_color{
+
+.header-img{
+  width:10px;
+  height:10px;    
+}
+#image2{
+  width:150px;
+  height:auto;
+}
+
+.test{
+  background-image:url(https://th.bing.com/th/id/OIP.ZW-wW7R3lKD9eNZDFVLW8AHaE8?rs=1&pid=ImgDetMain);
   
 }
-.header-img{
-    width:10px;
-    height:10px;    
+.logo {
+  margin-bottom: 20px;
+}
+
+.navbar {
+  /* height:70px; */
+  
+  background-color:rgb(116, 112, 112); 
+  opacity: 95%;
+  
+}
+
+.nav-link,.active{
+  color:white
+}
+
+.nav-link:hover{
+  color:gray
+}
+
+
+#backtotop:hover {
+  background-color: #1f1f1f; 
+}
+/* home */
+.color {
+  background-color:black;
+}
+.navbar-brand {
+  color:white
+}
+.navbar-brand:hover {
+  color:gray
+}
+.image-container
+{
+  background-color: gray;
+  color:white;
+  height:350px;
+  background: rgba(128, 128, 128, 0.65);
+  padding-top:75px;
+}
+
+p{
+  font-size:30px;
+}
+.shop-button:hover{
+  color:green;
+}
+#header{
+  margin-left:25px;
+}
+.logo{
+    align-items:center;
+}
+
+.image-container2{
+  background-color: #c59174;
+  color:white;
+  height:350px;
+  background: rgba(128, 128, 128, 0.65);
+}
+.image-contain{
+  background-color: rgb(197, 145, 116);
+  color:white;
+  background: rgb(197, 145, 116, 0.65);
+}
+#para{
+  color:green;
+}
+#a{
+  font-size:30px;
+}
+#borders{
+  border-right:solid;
+  border-width:2px;
+  
+}
+footer{
+  background-color:gray;
+}
+#contact-font{
+  font-size:25px;
+  color:white;
+}
+
+#purp{
+  color:purple;
+}
+#answer{
+  color:green;
+}
+#contact-img{
+  font-size:50px;
+}
+.imagealignright{
+  align-items: right;
+  float: right;
 }
